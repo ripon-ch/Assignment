@@ -1,0 +1,145 @@
+/*global*/
+.montserrat-tx {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+*{
+  margin:0;
+  padding: 0;
+}
+
+/*main start*/
+.m-part{
+  width: 1440px;
+  background: url(/assignment/bg-white.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 698px;
+  position: relative;
+  font-family: montserrat-tx;
+}
+/*navbar start*/
+.navbar{
+  width: 80℅;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right:150px ;
+  margin-left: 150px;
+  margin-top: 10℅;
+  text-decoration: none;
+  
+}
+.navbar .logo{
+  width: 99px;
+  height: 99px;
+  cursor: pointer;
+  
+}
+.navbar .btn{
+  
+  background: orangered;
+  border: none;
+  border-radius: 3px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  width: 132px;
+  height: 48px;
+  transition:.4s ease ;
+}
+
+.navbar .btn:hover{
+  background: cadetblue;
+}
+/*info start*/
+.info{
+  margin-left: 150px;
+  margin-top: 200px;
+  text-align: center;
+  
+  
+  
+  
+}
+.info h1{
+  font-size: 65px;
+  color: black;
+  
+  
+}
+.info h3{
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  text-decoration: none;
+  margin-block: 20px;
+  
+  
+}
+
+.info span{
+  color: orangered;
+}
+
+.info a{
+  text-decoration: none;
+  background: orangered;
+ border: none;
+border-radius: 3px;
+font-family: montserrat-tx;
+font-size: 40px;
+font-weight: bold;
+color: white;
+width: 200px;
+height: 48px;
+padding: 5 30 5 30;
+display: inline-block;
+margin-top: 10px;
+transition: .4s ease;
+}
+
+.info a:hover{
+  background: cadetblue;
+}
+/*action part */
+.action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 370px 150px;
+ 
+}
+.action-text{
+  max-width: 905px;
+  max-height: 237px;
+  text-decoration: none;
+  display: inline-block;
+  letter-spacing: 1px;
+  
+  
+}
+.action-text h2{
+  margin: 20px 0px;
+  font-size: 30px;
+  font-style: bold;
+  text-wrap-style: normal;
+  text-decoration: none;
+}
+.action-text p {
+  margin: 20px 0px;
+  font-size: 18px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  line-height: 25px;
+  
+}
+.code-img img{
+  max-width: 403px;
+  max-height: 403px;
+  
+  
+}
+  
